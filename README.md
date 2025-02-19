@@ -51,7 +51,6 @@ local-agent/
 ```    
 ## ⚙️ 配置说明
 - config.env：请根据实际情况配置项目所需环境变量，如 SESSION_ID、LANGSMITH_ENDPOINT、LANGSMITH_API_KEY、LANGSMITH_PROJECT 等。
-文件路径：
 - 在 src/tts.py 中，vocab.txt 与模型文件应与代码处于同级目录，代码中已通过 os.path 动态获取当前文件路径，并自动检查目录是否存在，若不存在则创建。
 persist_dir 路径在 src/rag.py 中也采用了相对路径转绝对路径的方式，保证无论在哪个路径启动项目都能正常使用。
 ## 🛠 使用方法
