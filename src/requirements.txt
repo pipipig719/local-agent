@@ -1,0 +1,15 @@
+langchain==0.3.14
+langchain-chroma==0.2.0
+langchain_ollama==0.2.2
+langgraph==0.2.62
+langchain_community==0.3.14
+gradio==5.14.0
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+beautifulsoup4==4.12.3
+yt-dlp==2025.1.15
+fake-useragent==2.0.3
+apscheduler==3.10.4
+TTS
+pillow==10.4.0
